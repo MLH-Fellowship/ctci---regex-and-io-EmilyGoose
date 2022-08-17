@@ -28,10 +28,10 @@ for file_name in files:
             over_500 = " ".join(words[i:])
 
             # Write halves of files
-            out_file_1 = open(file_name + "1.txt", "w")
+            out_file_1 = open(file_name + "-1.txt", "w")
             out_file_1.write(under_500)
             out_file_1.close()
-            out_file_2 = open(file_name + "2.txt", "w")
+            out_file_2 = open(file_name + "-2.txt", "w")
             out_file_2.write(over_500)
             out_file_2.close()
         i += 1
